@@ -16,6 +16,7 @@ bind-key {key} resize-pane -Z
 ### If you need to use tmux 1.7 or earlier
 
 Use `zoomwin.sh`.
+Clone this repository and copy `zoomwin.sh` to `~/.tmux`.
 
 ```
 bind-key {key} run "/bin/bash -c 'if [ -f $HOME/.tmux/zoomwin.sh ]; then bash ~/.tmux/zoomwin.sh; else tmux resize-pane -Z; fi'"
